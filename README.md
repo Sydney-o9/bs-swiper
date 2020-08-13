@@ -1,4 +1,4 @@
-## bs-swiper
+# bs-swiper
 
 [BuckleScript](https://github.com/rescript-lang/rescript-compiler) bindings for [Swiper](https://github.com/nolimits4web/swiper)
 

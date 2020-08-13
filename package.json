@@ -1,0 +1,41 @@
+{
+  "name": "@sydney_o9/bs-swiper",
+  "version": "1.0.0",
+  "description": "ReasonML bindings for Swiper JS",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "bs-express": "^1.0.1",
+    "swiper": "^6.1.1"
+  },
+  "devDependencies": {
+    "@glennsl/bs-jest": "^0.5.1",
+    "bs-platform": "^3.0.0",
+    "jest": "26.4.0"
+  },
+  "peerDependencies": {
+    "swiper": "^6.1.1"
+  },
+  "files": [
+    "src/Swiper.re",
+    "src/SwiperSlide.re",
+    "bsconfig.json"
+  ],
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w",
+    "test": "jest"
+  },
+  "keywords": [
+    "Swiper",
+    "ReasonML",
+    "bindings",
+    "Swiper",
+    "JS"
+  ],
+  "author": "sydney_o9",
+  "license": "ISC"
+}
