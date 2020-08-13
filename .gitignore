@@ -28,3 +28,4 @@ node_modules
 **/*.*~
 **/*.bs.js
 package-lock.json
+LICENCE
